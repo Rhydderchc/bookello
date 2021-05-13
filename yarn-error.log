@@ -1,0 +1,26 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarnpkg install
+
+PATH: 
+  /Users/AKS/Desktop/bookello/node_modules/.bin:/Users/AKS/Desktop/node_modules/.bin:/Users/AKS/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/AKS/.npm/_npx/e8d9921bba236b1e/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.cargo/bin: export DENO_INSTALL="/Users/AKS/.deno": export PATH="$DENO_INSTALL/bin:$PATH":/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/AKS/.cargo/bin:/Users/AKS/.cargo/bin: export DENO_INSTALL=/Users/AKS/.deno: export PATH=/bin:/Users/AKS/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.cargo/bin: export DENO_INSTALL="/Users/AKS/.deno": export PATH="$DENO_INSTALL/bin:$PATH":/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/AKS/Library/Caches/Yarn/v6/npm-@babel-helper-simple-access-7.13.12-dd6c538afb61819d205a012c31792a39c7a5eaf6-integrity/node_modules/@babel/helper-simple-access/LICENSE' -> '/Users/AKS/Desktop/bookello/CRNAExpoTSExample/node_modules/@babel/helper-simple-access/LICENSE'
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
