@@ -11,17 +11,16 @@ const { width } = Dimensions.get('window');
 function Help() {
 	return (
 		<ScrollView style={styles.wrapper} contentContainerStyle={styles.wrapperContent}>
-			<Text style={styles.heading}>Source & Target</Text>
+			<Text style={styles.heading}>Innvoation</Text>
 			<Text style={styles.text}>
-				&quot;Source and target languages&quot; might be a confusing terminology to some.{' '}
+				&quot;Bookello is an open source innovation.&quot;With an easier way of attempting to gain knowledge.{' '}
 				<Text style={styles.emphasize}>
-					Source is the language that you wish to translate from, while target is the language
-					that you would want to translate to.
+					Bookello allows you to produce the same amount of anatomy other paid courses provide you
+					Read on your own and no-one guides you your all free to learn new things!
 				</Text>
 			</Text>
 			<Text style={styles.text}>
-				Duofolio uses this setting to translate text for you. You can change your source and
-				target languages from the settings menu. To go to settings, simply click the{' '}
+				You want to read a book, right, But want to try it out and understand it in another language? Go over to the settings tap the {' '}
 				<Icon name="menu" size={18} color={primaryColor} /> icon in the top right corner of the
 				screen and a drawer will slide in. Click the{' '}
 				<Icon name="settings" size={18} color={primaryColor} /> icon and you should see the
@@ -29,16 +28,14 @@ function Help() {
 			</Text>
 			<Text style={styles.heading}>Translation</Text>
 			<Text style={[styles.text, styles.emphasize]}>
-				There are two ways to look up translation in Duofolio:
+				Bookello was made for simple book reading but guess what, you can translate into 3 ways
 			</Text>
 			<Text style={styles.bullets}>•{'  '} Quick Lookup</Text>
 			<Text style={styles.bullets}>•{'  '} Google Translate</Text>
 			<Text style={styles.heading}>Quick Lookup</Text>
 			<Text style={styles.text}>
-				This is the quickest & most non-disruptive way to see the translation of a word. Simply
-				select a word in your book and a menu pops up where you can see its translation and
-				listen to its pronunciation. Do note that this method is only meant for single words (it
-				has a character limit of 40) and it might not support pronunciation for some languages.
+				The best way in my opinion would be looking up the translation of a word, straightforward rather than completely monetizing the whole story into 
+				different language.
 			</Text>
 			<Image source={quickLookup} style={styles.screenshot1} />
 			<Text style={styles.heading}>Google Translate</Text>
