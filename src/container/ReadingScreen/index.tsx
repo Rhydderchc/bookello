@@ -6,6 +6,7 @@ import { ExternalStorageDirectoryPath } from 'react-native-fs';
 import { WebView } from 'react-native-webview';
 import SideMenu from 'react-native-side-menu';
 import { connect } from 'react-redux';
+import {styles} from './styles';
 import * as actions from '../actions';
 import Drawer from '../components/Drawer';
 import DictionaryModal from '../components/DictionaryModal';
